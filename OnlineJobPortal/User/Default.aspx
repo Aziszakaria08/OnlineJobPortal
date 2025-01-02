@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/User/UserMaster.Master" CodeBehind="Default.aspx.vb" Inherits="OnlineJobPortal._Default" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -38,8 +39,8 @@
                                     </div>
                                     <div class="search-form">
                                         <a href="#">Find job</a>
-                                    </div>	
-                                </form>--%>	
+                                    </div>
+                                </form>--%>
                             </div>
                         </div>
                     </div>
@@ -66,7 +67,7 @@
                                 <span class="flaticon-tour"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Design & Creative</a></h5>
+                                <h5><a href="job_listing.html">Design & Creative</a></h5>
                                 <span>(653)</span>
                             </div>
                         </div>
@@ -77,7 +78,7 @@
                                 <span class="flaticon-cms"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Design & Development</a></h5>
+                                <h5><a href="job_listing.html">Design & Development</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -88,7 +89,7 @@
                                 <span class="flaticon-report"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Sales & Marketing</a></h5>
+                                <h5><a href="job_listing.html">Sales & Marketing</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -99,7 +100,7 @@
                                 <span class="flaticon-app"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Mobile Application</a></h5>
+                                <h5><a href="job_listing.html">Mobile Application</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -110,7 +111,7 @@
                                 <span class="flaticon-helmet"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Construction</a></h5>
+                                <h5><a href="job_listing.html">Construction</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -121,7 +122,7 @@
                                 <span class="flaticon-high-tech"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Information Technology</a></h5>
+                                <h5><a href="job_listing.html">Information Technology</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -132,7 +133,7 @@
                                 <span class="flaticon-real-estate"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Real Estate</a></h5>
+                                <h5><a href="job_listing.html">Real Estate</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -143,7 +144,7 @@
                                 <span class="flaticon-content"></span>
                             </div>
                             <div class="services-cap">
-                               <h5><a href="job_listing.html">Content Writer</a></h5>
+                                <h5><a href="job_listing.html">Content Writer</a></h5>
                                 <span>(658)</span>
                             </div>
                         </div>
@@ -162,13 +163,13 @@
         </div>
         <!-- Our Services End -->
         <!-- Online CV Area Start -->
-         <div class="online-cv cv-bg section-overly pt-90 pb-120"  data-background="../assets/img/gallery/cv_bg.jpg">
+        <div class="online-cv cv-bg section-overly pt-90 pb-120" data-background="../assets/img/gallery/cv_bg.jpg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-10">
                         <div class="cv-caption text-center">
                             <p class="pera1">FEATURED TOURS Packages</p>
-                            <p class="pera2"> Make a Difference with Your Online Resume!</p>
+                            <p class="pera2">Make a Difference with Your Online Resume!</p>
                             <a href="#" class="border-btn2 border-btn4">Upload your cv</a>
                         </div>
                     </div>
@@ -194,10 +195,13 @@
                         <div class="single-job-items mb-30">
                             <div class="job-items">
                                 <div class="company-img">
-                                    <a href="job_details.html"><img src="../assets/img/icon/job-list1.png" alt=""></a>
+                                    <a href="job_details.html">
+                                        <img src="../assets/img/icon/job-list1.png" alt=""></a>
                                 </div>
                                 <div class="job-tittle">
-                                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                                    <a href="job_details.html">
+                                        <h4>Digital Marketer</h4>
+                                    </a>
                                     <ul>
                                         <li>Creative Agency</li>
                                         <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
@@ -214,10 +218,13 @@
                         <div class="single-job-items mb-30">
                             <div class="job-items">
                                 <div class="company-img">
-                                    <a href="job_details.html"><img src="../assets/img/icon/job-list2.png" alt=""></a>
+                                    <a href="job_details.html">
+                                        <img src="../assets/img/icon/job-list2.png" alt=""></a>
                                 </div>
                                 <div class="job-tittle">
-                                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                                    <a href="job_details.html">
+                                        <h4>Digital Marketer</h4>
+                                    </a>
                                     <ul>
                                         <li>Creative Agency</li>
                                         <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
@@ -230,14 +237,17 @@
                                 <span>7 hours ago</span>
                             </div>
                         </div>
-                         <!-- single-job-content -->
+                        <!-- single-job-content -->
                         <div class="single-job-items mb-30">
                             <div class="job-items">
                                 <div class="company-img">
-                                    <a href="job_details.html"><img src="../assets/img/icon/job-list3.png" alt=""></a>
+                                    <a href="job_details.html">
+                                        <img src="../assets/img/icon/job-list3.png" alt=""></a>
                                 </div>
                                 <div class="job-tittle">
-                                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                                    <a href="job_details.html">
+                                        <h4>Digital Marketer</h4>
+                                    </a>
                                     <ul>
                                         <li>Creative Agency</li>
                                         <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
@@ -250,14 +260,17 @@
                                 <span>7 hours ago</span>
                             </div>
                         </div>
-                         <!-- single-job-content -->
+                        <!-- single-job-content -->
                         <div class="single-job-items mb-30">
                             <div class="job-items">
                                 <div class="company-img">
-                                    <a href="job_details.html"><img src="../assets/img/icon/job-list4.png" alt=""></a>
+                                    <a href="job_details.html">
+                                        <img src="../assets/img/icon/job-list4.png" alt=""></a>
                                 </div>
                                 <div class="job-tittle">
-                                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
+                                    <a href="job_details.html">
+                                        <h4>Digital Marketer</h4>
+                                    </a>
                                     <ul>
                                         <li>Creative Agency</li>
                                         <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
@@ -283,7 +296,7 @@
                     <div class="col-lg-12">
                         <div class="section-tittle white-text text-center">
                             <span>Apply process</span>
-                            <h2> How it works</h2>
+                            <h2>How it works</h2>
                         </div>
                     </div>
                 </div>
@@ -295,8 +308,8 @@
                                 <span class="flaticon-search"></span>
                             </div>
                             <div class="process-cap">
-                               <h5>1. Search a job</h5>
-                               <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h5>1. Search a job</h5>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -306,8 +319,8 @@
                                 <span class="flaticon-curriculum-vitae"></span>
                             </div>
                             <div class="process-cap">
-                               <h5>2. Apply for job</h5>
-                               <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h5>2. Apply for job</h5>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
                             </div>
                         </div>
                     </div>
@@ -317,13 +330,13 @@
                                 <span class="flaticon-tour"></span>
                             </div>
                             <div class="process-cap">
-                               <h5>3. Get your job</h5>
-                               <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                                <h5>3. Get your job</h5>
+                                <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-             </div>
+            </div>
         </div>
         <!-- How  Apply Process End-->
         <!-- Testimonial Start -->
@@ -390,8 +403,8 @@
             </div>
         </div>
         <!-- Testimonial End -->
-         <!-- Support Company Start-->
-         <div class="support-company-area support-padding fix">
+        <!-- Support Company Start-->
+        <div class="support-company-area support-padding fix">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6">
@@ -476,7 +489,5 @@
             </div>
         </div>
         <!-- Blog Area End -->
-
     </main>
-
 </asp:Content>
